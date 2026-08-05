@@ -17,5 +17,12 @@
         "hint": "如果检测到当前日期与点赞日期不同时，则触发自动点赞，并更新点赞日期",
         "invisible": true,
         "default": "2025-01-01"
+    },
+    "auto_like_state": {
+        "description": "各QQ机器人自动点赞状态",
+        "type": "string",
+        "hint": "记录每个机器人最后完成自动点赞的日期",
+        "invisible": true,
+        "default": "{}"
     }
 }
